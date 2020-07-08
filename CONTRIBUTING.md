@@ -23,7 +23,7 @@ This part parses through the HTML, searching for areas of input to exploit. It m
 
 ### intruder.py
 
-This part iterates through a wordlist of XSS attacks from the file attacks.xml and passes it through the inputs. Every XSS payload consists of an alert message that gets validated and patched through a headless browser. It makes use of the Python library [pyppeteer](https://pypi.org/project/pyppeteer/) for this.
+This part iterates through a wordlist of XSS attacks from the file attacks.xml and passes it through the inputs. Every XSS payload consists of an alert message that gets validated and patched through a headless browser. It makes use of the Python library [pyppeteer](https://pypi.org/project/pyppeteer/) OR [selenium](https://pypi.org/project/selenium/) for this.
 
 The project also consists of a XML file called attacks.xml that stores the wordlist of potential attacks.
 
