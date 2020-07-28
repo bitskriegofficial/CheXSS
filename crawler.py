@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #Hardcode URL for testing purposes, will integrate input later
-url= "https://www.roboform.com/filling-test-all-fields"     #needs to be verified as valid URL
+url= ""     #needs to be verified as valid URL
 target= requests.get(url)                                   #downloading HTML page
 soup= BeautifulSoup(target.content, 'html.parser')          #initialising bs4 object
 status= target.status_code
