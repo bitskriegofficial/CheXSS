@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Hardcode URL for testing purposes, will integrate input later
-url= "https://www.roboform.com/filling-test-all-fields"        
+url= ""        
 
 # field list containing names or ids of text fields only; final output of the program
 field= []             
